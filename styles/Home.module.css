@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.main{
+  background-color: rgb(29, 24, 24);
+  color: white;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(24, 1fr);
+}
+.kingdoms{
+  margin-top: 3rem;
+  grid-column: 5 / 21;
+  font-family: 'Righteous', cursive;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  font-size: .7rem;
+}
+.kingdoms > * {
+  height: 10rem;
+  width: 10rem;
+  margin: .7rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: .5rem;
+  border-bottom-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+
+}
+.kingdomfirst{
+  background-image: url(../public/images/wht.jpg);
+  background-size: cover;
+  color: rgb(110, 73, 73);
+}
+.kingdomsecond{
+  background-image: url(../public/images/org.jpg);
+  background-size: cover;
+  color: rgb(201, 187, 174);
+
+}
+.kingdomthird{
+  background-image: url(../public/images/purp.jpg);
+  background-size: cover;
+  color: rgb(201, 174, 192);
+}
+
+.kingdom{
+  grid-column: 5 / 21;
+}
