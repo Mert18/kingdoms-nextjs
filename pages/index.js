@@ -1,8 +1,10 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import React, {useState} from 'react'
 import Huaiyans from '../components/kingdoms/Huaiyans'
+import Greaies from '../components/kingdoms/Greaies'
+import Yalvians from '../components/kingdoms/Yalvians'
+
 
 export default function Home() {
 
@@ -37,7 +39,8 @@ export default function Home() {
         </div>
 
         <div className={styles.kingdom}>
-          <Huaiyans />
+          {kingdom === 'Huaiyans' ? <Huaiyans /> : kingdom=== 'Greaies' ? <Greaies /> : kingdom === 'Yalvians' ? <Yalvians /> : ''}
+          
         </div>
 
       </main>

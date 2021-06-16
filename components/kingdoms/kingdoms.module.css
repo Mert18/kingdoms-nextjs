@@ -5,6 +5,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+
+}
+.join button{
+    color: white;
+    background-color: rgb(29, 24, 24);
+    border: none;
+    outline: none;
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 1.9rem;
+}
+.join button:hover{
+    cursor: pointer;
+    color: rgb(219, 200, 200);
 }
 
 .leader{
@@ -20,5 +35,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: .5rem;
+    font-size: 1.1rem;
+    padding: .9rem;
 }
